@@ -1,0 +1,21 @@
+# ignores the directory build
+build/*
+!build/module2.jar
+
+# ignores all files .jar
+*.jar
+
+# does not ignore the file module2.jar
+!module2.jar
+
+# ignore the file application-local.properties
+/src/main/resources/application-local.properties
+
+# ignores the directory .idea
+.idea/
+
+# ignores the directory .idea_copy except for the file workspace.xml —
+!.idea_copy/
+.idea_copy/*
+!.idea_copy/workspace.xml
+
